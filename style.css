@@ -260,6 +260,7 @@ body {
     
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     padding: 0 0 0 0;
     }
@@ -326,6 +327,7 @@ body {
  .most-populars {
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     row-gap: 15px;
     height: 100%;
     padding-top: 10px;
@@ -647,7 +649,7 @@ body {
     width: 300px;
    }
     .most-populars {
-      
+      justify-content: center;
       align-content: flex-start;
       gap: 50px;
   }

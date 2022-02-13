@@ -243,7 +243,7 @@ body {
 
   .bloc-accomodation {
     display: flex;
-    justify-content:center;
+    justify-content:flex-start;
     flex-direction:column;
     flex-grow: 1;
     align-items: center;
@@ -260,7 +260,7 @@ body {
     
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
     padding: 0 0 0 0;
     }
@@ -337,7 +337,7 @@ body {
   .most-populars .title-h2-and-icon {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-grow: 1;
     margin: 0;
   }
@@ -639,6 +639,11 @@ body {
      }
      .most-popular-case-img img {
       min-width: 92px;
+  }
+  }
+  @media screen and (max-width: 1011px) {
+    .marseille-case {
+      width: 145px;
   }
   }
   @media screen and (max-width: 900px) {

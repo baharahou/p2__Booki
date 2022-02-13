@@ -433,9 +433,8 @@ body {
     display: flex;
     align-items: stretch;
     flex-direction: row;
-   
     margin: auto;
-    height: 450px;
+    margin-bottom: 30px;
     width: 95%;
     gap: 30px 40px;
 
@@ -445,10 +444,18 @@ body {
 
     position: relative;
     width: 100%;
-    height: 90%;
+    height: 100%;
 
     border-radius: 20px;
     box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);
+  }
+  
+  .marseille-activities .on_activity_full-card{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
   }
   .marseille-activities .two_activity_full-card{
 
@@ -672,6 +679,10 @@ body {
     
     .bloc-most-popular .most-populars .most-popular {
       height: 120px;
+    }
+    .marseille-activities{
+      flex-flow: wrap; 
+      height: 100%;
     }
    
   }

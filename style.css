@@ -456,6 +456,7 @@ body {
     justify-content: center;
     width: 100%;
     margin: 0px;
+    /* height: fit-content; */
   }
   .marseille-activities .two_activity_full-card{
 
@@ -481,7 +482,7 @@ body {
     object-fit: cover;
     border-radius: 20px;
     width: 100%;
-    height: 90%;
+    height: 100%;
     margin: 0;
   }
 
@@ -760,7 +761,9 @@ body {
     .most-popular-case-img img {
       min-width: 145px;
     }
-
+    .activity__full-card img {
+      height: 80%;
+    }
     .footer-blocs {
       display: inline-flex;
       flex-direction: column;
@@ -810,4 +813,9 @@ body {
     .push-to-right {
       margin-left: 0 !important;
     }
+    .activity__full-card img {
+      
+      height: 80%;
+    
+  }
   }
